@@ -1,0 +1,62 @@
+.BoardDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.StarButton {
+    border: none;
+    background-color: unset;
+}
+.Star {
+    margin: 10px 0px 0px 20px;
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+.StarButton:focus {
+    outline: none;
+    border: none;
+}
+.DeleteButton {
+    border: none;
+    background-color: unset;
+}
+.DeleteIcon {
+    margin: 10px 20px 0px 0px;
+    width: 15px;
+    height: auto;
+    cursor: pointer;
+}
+.BoardInputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.BoardTitle {
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0px 0px 3%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+.BoardTitle:focus {
+    border: 2px solid #FD742E;
+}
+.BoardDescription {
+    width: 90%;
+    height: 70px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 10px 0px 10px 3%;
+    padding: 5px;
+}
+.BoardDescription:focus {
+    border: 2px solid #FD742E;
+}

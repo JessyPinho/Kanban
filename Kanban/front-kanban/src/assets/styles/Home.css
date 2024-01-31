@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.HomePage {
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 150px;
+    height: auto;
+
+}
+.CreateBoardButton {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FD742E;
+    color: white;
+}

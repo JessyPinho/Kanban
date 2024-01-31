@@ -1,0 +1,11 @@
+.LayoutBox {
+    display: flex;
+}
+.LayoutBox__content {
+    flex-grow: 1;
+    padding: 1px;
+    width: max-content;
+}
+.PlanzoneLogo {
+    width: 100px;
+}

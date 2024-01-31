@@ -1,0 +1,47 @@
+.Sidebar {
+    width: 250px;
+    height: 100%;
+}
+.SidebarList {
+    width: 250px;
+    height: 100vh;
+    background-color: #292929;
+}
+.SidebarListContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px 10px 0px;
+}
+.SidebarListAdd {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding: 10px 0px 0px 20px;
+}
+.SidebarListAdd:hover {
+    color: #FD742E;
+}
+.AddIcon {
+    padding: 2px 0px 0px 100%;
+    cursor: pointer;
+}
+.SidebarBoardList {
+    margin-top: 20px;
+}
+.SidebarBoardItem {
+    padding: 0px 0px 0px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+}
+.SidebarBoardItem:hover {
+    color: #FD742E;
+}
